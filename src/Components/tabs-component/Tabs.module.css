@@ -1,0 +1,23 @@
+.tabs {
+  border: 1px solid var(--sideBar-background-color);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.2rem;
+  border-radius: 3rem;
+}
+
+.tabs__item {
+  flex: 1;
+  text-align: center;
+  font-size: 1.6rem;
+  border-radius: 3rem;
+  padding: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.activeTab {
+  background-color: #747070;
+  color: var(--primary-background-color);
+}
