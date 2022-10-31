@@ -1,0 +1,32 @@
+.profile {
+  width: 8rem;
+  height: 8rem;
+  margin: auto;
+  border-radius: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--sideBar-background-color);
+}
+
+.profile__icon {
+  font-size: 4rem;
+  color: var(--primary-background-color);
+}
+
+.add_photo_icon {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  font-size: 1.2rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: var(--primary-background-color);
+  border-radius: 100%;
+  cursor: pointer;
+}

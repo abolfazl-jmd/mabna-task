@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --primary-background-color: #fff;
+  --sideBar-background-color: #d1d1d1;
+  --text-color-black-one: #1b212d;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app {
+  position: relative;
+  width: 42.8rem;
+  height: 84.4rem;
+  max-width: 42.8rem;
+  max-height: 84.4rem;
+}
