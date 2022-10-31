@@ -26,6 +26,17 @@ body {
 
 #app {
   position: relative;
-  width: 42.8rem;
-  height: 84.4rem;
+}
+
+@media screen and (max-width: 510px) {
+  #app {
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 510px) {
+  #app {
+    width: 42.8rem;
+    height: 84.4rem;
+  }
 }
