@@ -11,7 +11,9 @@ const Input = ({ name, placeholder, type, changeHandler, value }) => {
         onChange={changeHandler}
         value={value}
       />
-      {value && <i className={`fa-solid fa-circle-check ${styles.icon}`}></i>}
+      {value && type !== "date" && (
+        <i className={`fa-solid fa-circle-check ${styles.icon}`}></i>
+      )}
     </div>
   );
 };

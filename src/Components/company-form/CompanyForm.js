@@ -21,7 +21,7 @@ const CompanyForm = () => {
   };
 
   return (
-    <form className={`${styles.company__form}`}>
+    <form className={`${styles.form}`}>
       <Input
         type="text"
         name="companyName"

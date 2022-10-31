@@ -15,7 +15,7 @@
 .input__field {
   background-color: var(--sideBar-background-color);
   padding: 1rem;
-  border-radius: 3rem;
+  border-radius: 2rem;
   font-size: 1.6rem;
   border: none;
   outline: none;

@@ -1,0 +1,10 @@
+.button {
+  border: none;
+  background-color: var(--sideBar-background-color);
+  border-radius: 2rem;
+  width: 40%;
+  margin: auto;
+  padding: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
