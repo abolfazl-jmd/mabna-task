@@ -1,0 +1,62 @@
+.icon {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.navbar {
+  background-color: var(--sideBar-background-color);
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  border-radius: 1.5rem 1.5rem 0 0;
+  padding: 1rem;
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.navbar__list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.navbar__list__item .icon {
+  font-size: 2rem;
+  color: var(--primary-background-color);
+}
+
+.navbar__list__item .list__item__name {
+  color: var(--primary-background-color);
+  font-size: 1.5rem;
+}
+
+.navbar__list__item:hover .icon {
+  color: #000;
+}
+
+.navbar__list__item:hover .list__item__name {
+  color: #000;
+}
+
+.navbar__list__item.navbarActiveItem .icon {
+  color: #000;
+}
+
+.navbar__list__item.navbarActiveItem .list__item__name {
+  color: #000;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    position: absolute;
+  }
+}
