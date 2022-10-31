@@ -5,7 +5,7 @@ import Layout from "../Layout/Layout";
 
 const Profile = () => {
   return (
-    <Layout>
+    <Layout title="پروفایل">
       <ProfilePicture />
       <Tabs />
       <CompanyForm />
